@@ -48,10 +48,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1              &kp N2         &kp N3    &kp N4  &kp N5        &kp N6                  &kp N7        &kp N8        &kp N9        &kp N0        &trans
-&trans  &kp TAB             &trans         &trans    &trans  &trans        &kp LBKT                &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LBRC)  &kp LS(RBRC)  &trans
-&trans  &kp LC(LA(LS(N4)))  &kp LG(LS(S))  &trans    &trans  &trans        &kp RBKT                &kp EQUAL     &kp LS(PLUS)  &kp MINUS     &kp LS(EXCL)  &trans
-                                           &kp LGUI  &to 0   &kp LSHIFT    &holdTap DEL BACKSPACE  &to 2         &kp LALT
+&trans  &kp N1              &kp N2         &kp N3         &kp N4            &kp N5        &kp N6                  &kp N7        &kp N8        &kp N9        &kp N0        &trans
+&trans  &kp TAB             &kp INSERT     &kp PAGE_UP    &kp SINGLE_QUOTE  &trans        &kp LBKT                &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LBRC)  &kp LS(RBRC)  &trans
+&trans  &kp LC(LA(LS(N4)))  &kp LG(LS(S))  &kp PAGE_DOWN  &trans            &trans        &kp RBKT                &kp EQUAL     &kp LS(PLUS)  &kp MINUS     &kp LS(EXCL)  &trans
+                                           &kp LGUI       &to 0             &kp LSHIFT    &holdTap DEL BACKSPACE  &to 2         &kp LALT
             >;
         };
 
@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &trans         &kp N7        &kp N8        &kp N9        &trans  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &kp NUMBER_4  &kp N5        &kp N6        &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &trans
-                                    &kp LGUI      &to 0         &kp SPACE       &kp BACKSPACE  &to 3         &kp RALT
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6         &kp F7        &kp F8        &kp F9        &kp F10  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &kp NUMBER_4  &kp N5        &kp N6        &kp F11  &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F12  &trans
+                                    &kp LGUI      &to 0         &kp LSHFT       &kp BACKSPACE  &to 3         &kp RALT
             >;
         };
 
