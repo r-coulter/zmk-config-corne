@@ -86,7 +86,7 @@
 &trans  &long_hold ESCAPE N1  &kp Q  &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &holdTap TAB N2       &kp A  &kp S      &kp D      &kp F        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N3                &kp Z  &kp X      &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp LCTRL  &kp LSHFT  &kp SPACE    &to 0   &to 0   &to 0
+                                     &kp LCTRL  &kp LSHFT  &kp SPACE    &to 1   &to 1   &to 1
             >;
         };
     };
