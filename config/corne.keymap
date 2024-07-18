@@ -45,7 +45,7 @@
 
             bindings = <
 &trans  &long_hold ESCAPE Q  &kp W  &kp E              &kp R                  &kp T        &kp Y      &kp U                  &kp I                  &kp O    &holdTap KP_MINUS P         &trans
-&trans  &holdTap TAB A       &kp S  &long_hold LALT D  &long_hold LEFT_GUI F  &kp G        &kp H      &long_hold LEFT_GUI J  &long_hold LEFT_ALT K  &kp L    &holdTap SINGLE_QUOTE SEMI  &trans
+&trans  &long_hold TAB A     &kp S  &long_hold LALT D  &long_hold LEFT_GUI F  &kp G        &kp H      &long_hold LEFT_GUI J  &long_hold LEFT_ALT K  &kp L    &holdTap SINGLE_QUOTE SEMI  &trans
 &trans  &kp Z                &kp X  &kp C              &kp V                  &kp B        &kp N      &kp M                  &kp COMMA              &kp DOT  &kp FSLH                    &trans
                                     &kp BACKSPACE      &holdTap RETURN SPACE  &kp LSHFT    &sk LCTRL  &to 1                  &kp DEL
             >;
