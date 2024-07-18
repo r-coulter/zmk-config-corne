@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &holdTap ESC N1           &kp N2    &kp N3         &kp N4     &kp N5        &kp N6      &kp N7                                       &kp N8                           &kp N9                               &kp N0                               &trans
-&trans  &kp TAB                   &kp HOME  &kp UP         &kp END    &kp PG_UP     &kp PERIOD  &holdTap RIGHT_PARENTHESIS LEFT_PARENTHESIS  &holdTap RIGHT_BRACE LEFT_BRACE  &holdTap RIGHT_BRACKET LEFT_BRACKET  &holdTap DOUBLE_QUOTES SINGLE_QUOTE  &trans
-&trans  &holdTap SPACE LG(LS(S))  &kp LEFT  &kp DOWN       &kp RIGHT  &kp PG_DN     &trans      &kp EQUAL                                    &kp LS(PLUS)                     &kp MINUS                            &kp LS(EXCL)                         &trans
-                                            &kp BACKSPACE  &to 0      &kp LSHIFT    &kp LCTRL   &to 2                                        &kp DELETE
+&trans  &holdTap ESC N1           &kp N2     &kp N3         &kp N4    &kp N5        &kp N6      &kp N7                                       &kp N8                           &kp N9                               &kp N0                               &trans
+&trans  &kp TAB                   &kp PG_UP  &kp HOME       &kp UP    &kp END       &kp PERIOD  &holdTap RIGHT_PARENTHESIS LEFT_PARENTHESIS  &holdTap RIGHT_BRACE LEFT_BRACE  &holdTap RIGHT_BRACKET LEFT_BRACKET  &holdTap DOUBLE_QUOTES SINGLE_QUOTE  &trans
+&trans  &holdTap SPACE LG(LS(S))  &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT     &trans      &kp EQUAL                                    &kp LS(PLUS)                     &kp MINUS                            &kp LS(EXCL)                         &trans
+                                             &kp BACKSPACE  &to 0     &kp LSHIFT    &kp LCTRL   &to 2                                        &kp DELETE
             >;
         };
 
@@ -74,10 +74,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6         &kp F7        &kp F8        &kp F9        &kp F10  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &kp NUMBER_4  &kp N5        &kp N6        &kp F11  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F12  &trans
-                                    &kp LGUI      &to 0         &kp LSHFT       &kp BACKSPACE  &to 3         &kp RALT
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6     &kp F7        &kp F8        &kp F9        &kp F10  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &kp NUMBER_4  &kp N5        &kp N6        &kp F11  &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F12  &trans
+                                    &kp BSPC      &to 0         &kp LSHFT       &kp LSHFT  &to 3         &kp DEL
             >;
         };
 
